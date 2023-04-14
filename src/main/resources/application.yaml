@@ -1,0 +1,13 @@
+server.port: 9345
+
+spring:
+  thymeleaf:
+    cache: false
+  main:
+    show-banner: false
+
+logging:
+  level:
+    jdbc: OFF
+    sqltiming: DEBUG
+    resultsettable: DEBUG
