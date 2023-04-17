@@ -4,4 +4,4 @@ COPY . .
 ENV TeamBuilderDBUsername=myuser
 ENV TeamBuilderDBPassword=mypassword
 RUN mvn clean install
-ENTRYPOINT ["java", "-jar", "target/PokemonTeamBuilder-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/PokemonTeamBuilder-1.0-SNAPSHOT.jar"]
